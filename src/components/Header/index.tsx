@@ -17,6 +17,10 @@ import {
 } from "./styles";
 
 const Header = ({ t }: { t: TFunction }) => {
+  const handleAchieve = () => {
+    // Use window.location to navigate to the specified href
+    window.location.href = "/achieve";
+  };
   const [visible, setVisibility] = useState(false);
 
   const toggleButton = () => {
@@ -39,6 +43,10 @@ const Header = ({ t }: { t: TFunction }) => {
         <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
           <Span>{t("Mission")}</Span>
         </CustomNavLinkSmall>
+        <CustomNavLinkSmall onClick={handleAchieve}>
+          <Span>{t("Achievements")}</Span>
+        </CustomNavLinkSmall>
+        
         <CustomNavLinkSmall
           style={{ width: "180px" }}
           onClick={() => scrollTo("contact")}

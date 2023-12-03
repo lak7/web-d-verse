@@ -1,0 +1,16 @@
+{
+  "title": "We are TOP 1%",
+  "text": "Become an Unicorn which is a dream of every startup. We have many connections in almost every industry. Just take our investment and Keep Moving Forward!",
+  "section": [
+    {
+      "title": "Why Us?",
+      "content": "We have invested in more than 1000 startups in which many are already unicorn",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "What will we give?",
+      "content": "We will give you everything from money to connections",
+      "icon": "notes.svg"
+    }
+  ]
+}
